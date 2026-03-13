@@ -2,17 +2,17 @@ import { motion } from "framer-motion";
 import { Clock, ShieldCheck, Zap, Heart, MessageSquare, Users } from "lucide-react";
 
 const benefits = [
-  { icon: Clock, title: "24/7 automatic responses", description: "Never miss a customer, even at 3 AM." },
-  { icon: ShieldCheck, title: "No lost orders", description: "Every message becomes a tracked order." },
-  { icon: Zap, title: "Faster service", description: "Instant replies and order processing." },
-  { icon: Heart, title: "Less operational stress", description: "Your team focuses on what matters." },
-  { icon: MessageSquare, title: "Instant customer replies", description: "Customers get acknowledged right away." },
-  { icon: Users, title: "Team focuses on production", description: "Less time chatting, more time creating." },
+  { icon: Clock, title: "Respostas automáticas 24/7", description: "Nunca perca um cliente, mesmo às 3 da manhã." },
+  { icon: ShieldCheck, title: "Nenhum pedido perdido", description: "Toda mensagem vira um pedido rastreado." },
+  { icon: Zap, title: "Atendimento mais rápido", description: "Respostas e processamento instantâneos." },
+  { icon: Heart, title: "Menos estresse operacional", description: "Sua equipe foca no que realmente importa." },
+  { icon: MessageSquare, title: "Respostas instantâneas", description: "Clientes recebem confirmação na hora." },
+  { icon: Users, title: "Equipe focada na produção", description: "Menos tempo no chat, mais tempo produzindo." },
 ];
 
 const BenefitsSection = () => {
   return (
-    <section id="benefits" className="py-24 bg-muted/50">
+    <section id="beneficios" className="py-24 bg-muted/50">
       <div className="container">
         <motion.div
           className="text-center mb-16"
@@ -21,7 +21,7 @@ const BenefitsSection = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl sm:text-4xl font-extrabold text-foreground mb-4">
-            Benefits that impact your bottom line
+            Benefícios que impactam seu faturamento
           </h2>
         </motion.div>
 

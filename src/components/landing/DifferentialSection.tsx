@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { BookOpen, Settings, Mic, BarChart3 } from "lucide-react";
 
 const features = [
-  { icon: BookOpen, title: "Your menu or catalog", description: "AI knows every product you sell." },
-  { icon: Settings, title: "Business rules", description: "Custom logic for hours, areas, and limits." },
-  { icon: Mic, title: "Brand voice", description: "Replies that sound like your team." },
-  { icon: BarChart3, title: "Interaction patterns", description: "Learns from real customer conversations." },
+  { icon: BookOpen, title: "Seu cardápio ou catálogo", description: "A IA conhece cada produto que você vende." },
+  { icon: Settings, title: "Regras do negócio", description: "Lógica personalizada para horários, áreas e limites." },
+  { icon: Mic, title: "Tom da marca", description: "Respostas que soam como sua equipe." },
+  { icon: BarChart3, title: "Padrões de interação", description: "Aprende com conversas reais dos seus clientes." },
 ];
 
 const DifferentialSection = () => {
@@ -19,11 +19,11 @@ const DifferentialSection = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl sm:text-4xl font-extrabold text-foreground mb-4">
-            A digital brain{" "}
-            <span className="text-gradient">trained for your business</span>
+            Um cérebro digital{" "}
+            <span className="text-gradient">treinado para o seu negócio</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-xl mx-auto">
-            KamaTech creates natural conversations instead of robotic chatbot responses.
+            A KamaTech cria conversas naturais em vez de respostas robóticas de chatbot.
           </p>
         </motion.div>
 

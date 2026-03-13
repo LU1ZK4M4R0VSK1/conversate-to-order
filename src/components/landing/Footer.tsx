@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container flex flex-col sm:flex-row items-center justify-between gap-4">
         <img src={logo} alt="KamaTech" className="h-6" />
         <p className="text-xs text-muted-foreground">
-          © {new Date().getFullYear()} KamaTech. All rights reserved.
+          © {new Date().getFullYear()} KamaTech. Todos os direitos reservados.
         </p>
       </div>
     </footer>

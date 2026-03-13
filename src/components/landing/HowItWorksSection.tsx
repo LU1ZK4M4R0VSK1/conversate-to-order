@@ -2,15 +2,15 @@ import { motion } from "framer-motion";
 import { MessageCircle, Brain, ClipboardList, CheckCircle } from "lucide-react";
 
 const steps = [
-  { icon: MessageCircle, title: "Customer sends message", description: "A message arrives on WhatsApp as usual." },
-  { icon: Brain, title: "AI understands the request", description: "Our AI interprets intent, items, and context." },
-  { icon: ClipboardList, title: "System extracts details", description: "Items, address, and payment are structured." },
-  { icon: CheckCircle, title: "Team receives organized order", description: "Your team gets a clean, actionable order." },
+  { icon: MessageCircle, title: "Cliente envia mensagem", description: "Uma mensagem chega no WhatsApp normalmente." },
+  { icon: Brain, title: "IA entende o pedido", description: "Nossa IA interpreta a intenção, itens e contexto." },
+  { icon: ClipboardList, title: "Sistema extrai os detalhes", description: "Itens, endereço e pagamento são estruturados." },
+  { icon: CheckCircle, title: "Equipe recebe pedido organizado", description: "Sua equipe recebe um pedido limpo e pronto." },
 ];
 
 const HowItWorksSection = () => {
   return (
-    <section id="how-it-works" className="py-24 bg-background">
+    <section id="como-funciona" className="py-24 bg-background">
       <div className="container">
         <motion.div
           className="text-center mb-16"
@@ -18,8 +18,8 @@ const HowItWorksSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-foreground mb-4">How it works</h2>
-          <p className="text-muted-foreground text-lg">Four simple steps. Zero manual work.</p>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-foreground mb-4">Como funciona</h2>
+          <p className="text-muted-foreground text-lg">Quatro passos simples. Zero trabalho manual.</p>
         </motion.div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">

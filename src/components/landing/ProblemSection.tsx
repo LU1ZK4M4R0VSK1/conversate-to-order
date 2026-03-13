@@ -4,38 +4,38 @@ import { AlertTriangle, Clock, MessageSquareX } from "lucide-react";
 const problems = [
   {
     icon: MessageSquareX,
-    title: "Lost orders",
-    description: "Too many messages arrive at once and orders slip through the cracks.",
+    title: "Pedidos perdidos",
+    description: "Muitas mensagens chegam ao mesmo tempo e pedidos se perdem no meio.",
     chat: [
-      { from: "customer", text: "I want 2 pizzas please" },
-      { from: "customer", text: "Hello?? Anyone there?" },
-      { from: "customer", text: "Forget it, I'll order elsewhere" },
+      { from: "customer", text: "Quero 2 pizzas por favor" },
+      { from: "customer", text: "Oi?? Tem alguém aí?" },
+      { from: "customer", text: "Deixa pra lá, vou pedir em outro lugar" },
     ],
   },
   {
     icon: Clock,
-    title: "Slow responses",
-    description: "Customers give up when they don't get a quick reply.",
+    title: "Respostas lentas",
+    description: "Clientes desistem quando não recebem resposta rápida.",
     chat: [
-      { from: "customer", text: "Hi, do you deliver to downtown?" },
-      { from: "business", text: "Sorry for the delay! Yes we do." },
-      { from: "customer", text: "Already ordered from someone else 😕" },
+      { from: "customer", text: "Oi, vocês entregam no centro?" },
+      { from: "business", text: "Desculpa a demora! Sim, entregamos." },
+      { from: "customer", text: "Já pedi em outro lugar 😕" },
     ],
   },
   {
     icon: AlertTriangle,
-    title: "Confusing messages",
-    description: "Unstructured chats require manual organization every time.",
+    title: "Mensagens confusas",
+    description: "Conversas sem estrutura exigem organização manual toda vez.",
     chat: [
-      { from: "customer", text: "the usual but no onion and add fries and the juice from last time" },
-      { from: "business", text: "Which juice? And was the usual the chicken or beef?" },
+      { from: "customer", text: "o de sempre mas sem cebola e com batata e o suco de da outra vez" },
+      { from: "business", text: "Qual suco? E o de sempre é o de frango ou carne?" },
     ],
   },
 ];
 
 const ProblemSection = () => {
   return (
-    <section id="problem" className="py-24 bg-background">
+    <section id="problema" className="py-24 bg-background">
       <div className="container">
         <motion.div
           className="text-center mb-16"
@@ -45,10 +45,10 @@ const ProblemSection = () => {
           transition={{ duration: 0.5 }}
         >
           <h2 className="text-3xl sm:text-4xl font-extrabold text-foreground mb-4">
-            The chaos of selling through WhatsApp
+            O caos de vender pelo WhatsApp
           </h2>
           <p className="text-muted-foreground text-lg max-w-xl mx-auto">
-            Sound familiar? These problems cost you real revenue every day.
+            Parece familiar? Esses problemas custam receita real todos os dias.
           </p>
         </motion.div>
 
