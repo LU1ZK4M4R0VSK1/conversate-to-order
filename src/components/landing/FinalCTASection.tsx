@@ -12,16 +12,16 @@ const FinalCTASection = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl sm:text-4xl font-extrabold text-primary-foreground mb-4">
-            Ready to stop losing orders on WhatsApp?
+            Pronto para parar de perder pedidos no WhatsApp?
           </h2>
           <p className="text-primary-foreground/80 text-lg mb-8">
-            Transform your conversations into organized sales with KamaTech.
+            Transforme suas conversas em vendas organizadas com a KamaTech.
           </p>
           <a
             href="#"
             className="inline-flex items-center gap-2 bg-card text-foreground px-8 py-4 rounded-xl text-base font-semibold hover:bg-card/90 transition-colors shadow-elevated"
           >
-            Schedule a Demo <ArrowRight className="w-4 h-4" />
+            Agendar uma Demo <ArrowRight className="w-4 h-4" />
           </a>
         </motion.div>
       </div>

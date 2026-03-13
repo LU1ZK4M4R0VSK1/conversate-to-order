@@ -2,17 +2,17 @@ import { motion } from "framer-motion";
 import { UtensilsCrossed, Truck, Store, Stethoscope, Scissors, Wrench } from "lucide-react";
 
 const cases = [
-  { icon: UtensilsCrossed, title: "Restaurants" },
-  { icon: Truck, title: "Delivery businesses" },
-  { icon: Store, title: "Local stores" },
-  { icon: Stethoscope, title: "Clinics" },
-  { icon: Scissors, title: "Beauty salons" },
-  { icon: Wrench, title: "Service providers" },
+  { icon: UtensilsCrossed, title: "Restaurantes" },
+  { icon: Truck, title: "Delivery" },
+  { icon: Store, title: "Lojas locais" },
+  { icon: Stethoscope, title: "Clínicas" },
+  { icon: Scissors, title: "Salões de beleza" },
+  { icon: Wrench, title: "Prestadores de serviço" },
 ];
 
 const UseCasesSection = () => {
   return (
-    <section id="use-cases" className="py-24 bg-muted/50">
+    <section id="casos-de-uso" className="py-24 bg-muted/50">
       <div className="container">
         <motion.div
           className="text-center mb-16"
@@ -21,7 +21,7 @@ const UseCasesSection = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl sm:text-4xl font-extrabold text-foreground mb-4">
-            Built for businesses that sell via WhatsApp
+            Feito para negócios que vendem pelo WhatsApp
           </h2>
         </motion.div>
 
