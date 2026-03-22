@@ -12,9 +12,14 @@ const Navbar = () => {
           <a href="#beneficios" className="hover:text-foreground transition-colors">Benefícios</a>
           <a href="#casos-de-uso" className="hover:text-foreground transition-colors">Casos de uso</a>
         </div>
-        <a href="#cta" className="bg-gradient-cta text-primary-foreground px-5 py-2 rounded-lg text-sm font-semibold hover:opacity-90 transition-opacity">
-          Agendar Demo
-        </a>
+          <a
+            href="https://wa.me/5541991736878"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gradient-cta text-primary-foreground px-5 py-2 rounded-lg text-sm font-semibold hover:opacity-90 transition-opacity"
+          >
+            Agendar Demo
+          </a>
       </div>
     </nav>
   );
